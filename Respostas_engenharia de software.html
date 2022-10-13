@@ -1,0 +1,145 @@
+#include <stdio.h>
+
+    void main()
+    {
+        printf("Meu nome é %s, tenho %d anos e o meu aniversario é %s/%s","Francisco",52,"12","06") ;
+    }
+    
+    // PERGUNTA 1 REPOSTA A
+    ---------------------------------------------------------------------------
+    
+    #include <stdio.h>
+    
+    void main()
+    {
+    int num1 = 2;
+    int num2 = 4;
+        scanf("%d %d", &num1,&num2);
+    }
+    
+    // PERGUNTA 2 RESPOSTA D
+    ---------------------------------------------------------------------------
+    
+    #include <stdio.h>
+    
+    void main()
+    {
+    int A=3;
+    int B=15;
+    B/=A;
+    
+    printf("%d %d \n", A, B);
+    A=B++;
+    printf("%d %d \n", A, B);
+    }
+    
+    // PERGUNTA 3 RESPOSTA B
+    ---------------------------------------------------------------------------
+    
+    #include <stdio.h>
+    void main()
+    {
+    int a=15;
+    int b=3;
+    b/=a;
+    printf("%d %d \n", a, b);
+    a=b++;
+    printf("%d %d \n", a, b);
+    }
+    
+    // PERGUNTA 4 RESPOSTA C
+    ---------------------------------------------------------------------------
+    
+    
+    #include <stdio.h>
+    void main()
+    {
+    int i = 15;
+    int j = 3;
+    
+    j%= i;
+    printf("%d %d \n", i, j);
+    i = j++;
+    printf("%d %d \n", i, j);
+    }
+    
+    // PERGUNTA 5 RESPOSTA B
+    ---------------------------------------------------------------------------
+    
+    #include <stdio.h>
+    void main()
+    {
+    int num1 = 15;
+    int num2 = 3;
+    int num3;
+    num2 += num1;
+    num3 = num2;
+    num2 = 2;
+    
+    printf("%d %d \n", num1, num2);
+    num1 = num2++;
+    printf("%d %d \n", num1, num2);
+    }
+    
+    // PERGUNTA 6 RESPOSTA E
+    ---------------------------------------------------------------------------
+    #include <stdio.h>
+    void main()
+    {
+    int a=15;
+    int b=3;
+    int c, d;
+    b += a;
+    c = b;
+    b = 2;
+    d = c / b;
+    printf("%d %d %d %d \n", a, b, c, d);
+    }
+    
+    // PERGUNTA 7 RESPOSTA B
+    ---------------------------------------------------------------------------
+    
+    #include <stdio.h>
+    void main()
+    {
+    int a=15;
+    int b=3;
+    int c, d;
+    c = a / b;
+    d = a % b;
+    printf("%d %d %d %d \n", a, b, c, d);
+    }
+    
+    // PERGUNTA 8 RESPOSTA D
+    ---------------------------------------------------------------------------
+    
+    #include <stdio.h>
+    void main()
+    {
+    int a = 8;
+    int b;
+    b=++a;
+    printf("%d %d\n", a, b);
+    b = a++;
+    printf("%d %d\n",a, b);
+    }
+    
+    // PERGUNTA  RESPOSTA C
+    ---------------------------------------------------------------------------
+    
+    #include <stdio.h>
+    void main()
+    {
+    int a=15;
+    int b=2;
+    b*=a;
+    printf("%d %d\n",a, b);
+    b=a--;
+    printf("%d %d\n",a, b);
+    }
+    
+    // PERGUNTA 10 RESPOSTA A
+    ---------------------------------------------------------------------------
+    //  -= b is equivalent to a = a - b
+    // a *= b is equivalent to a = a * b
+    // a /= b is equivalent to a = a / b
