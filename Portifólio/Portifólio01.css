@@ -169,6 +169,8 @@ section .title::after{
     padding: 5px;
     transform: translateX(-50%);
 }
+
+
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Roboto', sans-serif;
 }
