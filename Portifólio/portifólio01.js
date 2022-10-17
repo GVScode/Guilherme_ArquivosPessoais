@@ -16,13 +16,13 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["Músico", "viado", "Designer", "Freelancer"],
+         strings:["Programador", "Desenvolvedor Web front-end", "Designer",],
          typeSpeed:100,
          backSpeed:60,
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:["Músico", "Desenvolvedor web front-end", "Designer", "Freelancer"],
+        strings:["Programador", "Desenvolvedor Web front-end", ],
         typeSpeed:100,
         backSpeed:60,
         loop:true
